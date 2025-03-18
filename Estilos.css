@@ -1,0 +1,157 @@
+
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardLogin{
+    height: 450px;
+    width: 550px;
+    border-radius: 10px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+
+   border: 3px;
+   border-style: solid;
+   border-color: blue;
+}
+
+.Card-Error-Show{
+    width: 100%;
+    height: 10%;
+
+    margin: 10px 0px 10px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(237, 88, 88);
+    color: white;
+}
+
+.Card-Error-Hidden{
+    width: 100%;
+    height: 10%;
+
+    margin: 10px 0px 10px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.CardLogin > img{
+    color: rgb(4, 56, 153);
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 120px;
+    object-fit: contain;
+
+    margin: 0px;
+}
+.CardLogin > h5{
+    color: rgb(191, 191, 191);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.CardLogin-Inputs{
+    height: 35%;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.CardLogin-Inputs > div{
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CardLogin-Inputs > div > input{
+    height: 40%;
+    width: 50%;
+
+    font-size: 20px;
+    
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(4, 56, 153);
+}
+
+.CardLogin-Button{
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}  
+.CardLogin-Button > div{
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CardLogin-Button > div > input[type=button]{
+    height: 80%;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(4, 56, 153);
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(4, 56, 153);
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.CardLogin-Button > div > input[type=button]:hover{
+    background-color: rgb(15, 190, 9);
+    border-color:rgb(15, 190, 9);
+}
